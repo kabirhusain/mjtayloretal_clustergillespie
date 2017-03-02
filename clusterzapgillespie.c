@@ -39,8 +39,8 @@ int main ( )
 	int NumberOfCells = 250;
 	double totalTime = 500.0; //total time to run the simulation, in seconds
 	double deNovoRate = 1.0/6.0; // Extracted from 16mer
-	double kZAPon = 1.0/51.0; //extracted from my stochastic model
-	double kZAPoff = 1.0/15.0; //estimated by Marcus
+	double kZAPon = 1.0/51.0; //extracted from stochastic model
+	double kZAPoff = 1.0/15.0; //from Figure 3C in Taylor et. al.
 	int numberofL = 40;
 	int numberofku = 30;
 
